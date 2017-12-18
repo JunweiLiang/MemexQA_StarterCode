@@ -32,4 +32,4 @@
 
 		$ python starter_code/main.py starter_test/prepro/ starter_test/baselines --modelname simple_lstm --use_char --keep_prob 0.7 --is_test --load_best
 
-		Trained for 100 epoch, testing accuracy: 50%
+		Trained for 100 epoch, testing accuracy: 47.8%
