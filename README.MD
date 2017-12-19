@@ -8,10 +8,11 @@
 
 # dataset download
 	v1.0
+	(You don't have to download "shown_photos.tgz" if you use our image features)
 		memexqa_dataset_v1.0/
 		├── album_info.json   # album data: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/album_info.json
 		├── glove.6B.100d.txt # word vectors for baselines:  http://nlp.stanford.edu/data/glove.6B.zip
-		├── shown_photos.tgz  # all photos: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/shown_photos.tgz
+		├── shown_photos.tgz (7.5GB)  # all photos: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/shown_photos.tgz
 		├── photos_inception_resnet_v2_l2norm.npz # photo features: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/photos_inception_resnet_v2_l2norm.npz
 		├── qas.json # QA data: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/qas.json
 		└── test_question.ids # testset Id: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/test_question.ids
