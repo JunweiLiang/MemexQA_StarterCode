@@ -8,7 +8,7 @@
 
 # dataset download
 	v1.0
-	(You don't have to download "shown_photos.tgz" if you use our image features)
+	(You don't have to download "shown_photos.tgz" if you use our image features "photos_inception_resnet_v2_l2norm.npz")
 		memexqa_dataset_v1.0/
 		├── album_info.json   # album data: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.0/album_info.json
 		├── glove.6B.100d.txt # word vectors for baselines:  http://nlp.stanford.edu/data/glove.6B.zip
