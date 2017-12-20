@@ -1,12 +1,12 @@
-#starter code for MemexQA dataset
+# Starter Code for MemexQA dataset
 
 
-# dataset website
+# Dataset website
 	https://memexqa.cs.cmu.edu/index.html
 
 	Explore dataset: https://memexqa.cs.cmu.edu/explore/1.html
 
-# dataset download
+# Dataset download
 	v1.1
 	(You don't have to download "shown_photos.tgz" if you use our image features "photos_inception_resnet_v2_l2norm.npz")
 		memexqa_dataset_v1.1/
@@ -18,7 +18,7 @@
 		└── test_question.ids # testset Id: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.1/test_question.ids
 
 
-# started code: word embedding w/ simple LSTM
+# Starter Code: word embedding w/ simple LSTM
 	Dependencies: tensorflow >= 1.0, tqdm, numpy...
 
 	Code Structure:
