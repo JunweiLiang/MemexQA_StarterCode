@@ -18,8 +18,16 @@
 		└── test_question.ids # testset Id: https://memexqa.cs.cmu.edu/memexqa_dataset_v1.1/test_question.ids
 
 
-# started code: word+char embedding w/ simple LSTM
+# started code: word embedding w/ simple LSTM
 	Dependencies: tensorflow >= 1.0, tqdm, numpy...
+
+	Code Structure:
+		1. main.py # main code for training and testing
+		2. model.py # the LSTM model
+		3. preprocess.py # code to preprocess data into pickle files for main.py
+		4. tester.py # tester class
+		5. trainer.py # trainer class
+		6. utils.py # some helpful function for the model and evaluation
 
 	1 preprocess
 
