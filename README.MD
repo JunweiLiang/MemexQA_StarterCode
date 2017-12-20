@@ -1,4 +1,4 @@
-#----------------------------- starter code for MemexQA dataset
+#starter code for MemexQA dataset
 
 
 # dataset website
